@@ -2,8 +2,7 @@ package view;
 
 import javax.swing.JOptionPane;
 
-import com.felix.utils.fila.integer.Fila;
-
+import br.edu.fateczl.erick.filaint.Fila;
 import controller.FilaController;
 
 public class Principal {

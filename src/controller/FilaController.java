@@ -2,7 +2,8 @@ package controller;
 
 import javax.swing.JOptionPane;
 
-//import com.felix.utils.fila.integer.Fila;
+import br.edu.fateczl.erick.filaint.Fila;
+
 
 public class FilaController {
 
@@ -13,9 +14,9 @@ public class FilaController {
 		super();
 	}
 
-	public void insereSenha(Fila fila, int senha) {
-		fila.insert(senha);
-		JOptionPane.showMessageDialog(null, "Senha " + senha + " gerada.");
+	public void insereSenha(Fila fila, int senhaPrioritaria) {
+		fila.insert(senhaPrioritaria);
+		JOptionPane.showMessageDialog(null, "Senha " + senhaPrioritaria + " gerada.");
 	}
 
 	public void chamarParaConsultas(Fila fila, Fila filaPrioritarios) throws Exception {
